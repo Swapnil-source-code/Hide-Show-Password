@@ -44,6 +44,25 @@ body{
 }
 
 
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 768px) {
+  .input-box {
+    margin: 200px auto;
+    width: 50%;
+  }
+  .input-box input {
+    font-size: 20px;
+  }
+}
 
-
+ /* Media Query for Mobile Devices */
+ @media (max-width: 480px) {
+  .input-box {
+    margin: 125px auto
+  }
+  .input-box input {
+    padding: 5px 5px;
+    font-size: 20px;
+  }
+}
 
